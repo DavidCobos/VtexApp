@@ -16,7 +16,9 @@ const AdminExample: FC = () => {
   const [isOpen, setOpen] = useState(false)
   const [usoCFDISel, setUsoCFDI] = useState('')
 
-  const { data, loading, error } = useQuery(getFacturation)
+  const { data, loading, error } = useQuery(getFacturation, {
+    variables: { orgid: 'org1' },
+  })
 
   if (loading) {
     return (
