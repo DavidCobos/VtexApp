@@ -1,0 +1,10 @@
+# To really understand GraphQL, go to https://graphql.org/learn/
+
+query getFacturation($orgid: String) {
+  getFacturation(orgid: $orgid) {
+    orgid
+    rfc
+    email
+    usoCFDI
+  }
+}

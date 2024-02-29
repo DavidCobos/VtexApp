@@ -1,4 +1,8 @@
 {
   "admin/test": "teste",
-  "store/test": "teste"
+  "store/test": "teste",
+  "admin-david-example.navigation.label": "Treinamento de IO",
+  "admin-david-example.navigation.search.kws": "privarsa, test, example",
+  "admin-david-example.navigation.insight": "insight",
+  "admin-david-example.navigation.management": "management"
 }

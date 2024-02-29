@@ -1,0 +1,17 @@
+mutation createFacturation(
+  $orgid: String
+  $rfc: String
+  $email: String
+  $usoCFDI: String
+) {
+  createFacturation(
+    orgid: $orgid
+    rfc: $rfc
+    email: $email
+    usoCFDI: $usoCFDI
+  ) {
+    Id
+    Href
+    DocumentId
+  }
+}

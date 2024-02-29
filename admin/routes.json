@@ -1,0 +1,10 @@
+{
+  "admin.app.example": {
+    "component": "adminExample",
+    "path": "/admin/app/app-privarsa"
+  },
+  "admin.app.otherexample": {
+    "component": "adminPrivarsa",
+    "path": "/admin/app/app-privarsa-managment"
+  }
+}

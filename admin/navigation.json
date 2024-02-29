@@ -1,0 +1,15 @@
+{
+  "section": "orders",
+  "titleId": "admin-david-example.navigation.label",
+  "searchKeyWordsHelpers": "admin-david-example.navigation.search.kws",
+  "subSectionItems": [
+    {
+      "labelId": "admin-david-example.navigation.insight",
+      "path": "/admin/app-privarsa"
+    },
+    {
+      "labelId": "admin-david-example.navigation.management",
+      "path": "/admin/app-privarsa-managment"
+    }
+  ]
+}
