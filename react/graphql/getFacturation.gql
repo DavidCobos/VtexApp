@@ -1,7 +1,7 @@
 # To really understand GraphQL, go to https://graphql.org/learn/
 
 query getFacturation($orgid: String) {
-  getFacturation(orgid: $orgid) {
+  getFacturation(orgid: $orgid, pageSize: 50) {
     orgid
     rfc
     email

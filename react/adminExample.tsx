@@ -21,23 +21,7 @@ const AdminExample: FC = () => {
 
   const [mutateFunction, {}] = useMutation(createFacturacion)
 
-  const { data, loading, error } = useQuery(getFacturation)
-
-  if (loading) {
-    return (
-      <div>
-        <h2> Cargando ...</h2>
-      </div>
-    )
-  }
-
-  if (error) {
-    return (
-      <div>
-        <h2> Error!</h2>
-      </div>
-    )
-  }
+  const {data, refetch} = useQuery(getFacturation)
 
   const defaultSchema = {
     properties: {
@@ -83,6 +67,7 @@ const AdminExample: FC = () => {
             },
           }}
           highlightOnHover
+
         />
       </PageBlock>
 
@@ -98,9 +83,12 @@ const AdminExample: FC = () => {
                 email: email,
                 usoCFDI: usoCFDISel
               }
-            });
+            }).then(()=>{
+              setOpen(false)
+              refetch()
+            })
 
-            setOpen(false);
+            refetch()
           },
           label: 'Send',
         }}

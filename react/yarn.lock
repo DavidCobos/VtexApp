@@ -4395,9 +4395,9 @@ pretty-format@^26.0.0, pretty-format@^26.6.2:
     ansi-styles "^4.0.0"
     react-is "^17.0.1"
 
-"privarsa.admin-app@https://davidprivarsa--privarsa.myvtex.com/_v/private/typings/linked/v1/privarsa.admin-app@0.0.1+build1709249701/public/@types/privarsa.admin-app":
+"privarsa.admin-app@https://davidprivarsa--privarsa.myvtex.com/_v/private/typings/linked/v1/privarsa.admin-app@0.0.1+build1709252218/public/@types/privarsa.admin-app":
   version "0.0.1"
-  resolved "https://davidprivarsa--privarsa.myvtex.com/_v/private/typings/linked/v1/privarsa.admin-app@0.0.1+build1709249701/public/@types/privarsa.admin-app#0b003aa626c5a743c4c772a7057f11c1e1c852dc"
+  resolved "https://davidprivarsa--privarsa.myvtex.com/_v/private/typings/linked/v1/privarsa.admin-app@0.0.1+build1709252218/public/@types/privarsa.admin-app#70d018281d1715a287ee38c5c91f78042546917d"
 
 "privarsa.graphql-example@https://davidprivarsa--privarsa.myvtex.com/_v/private/typings/linked/v1/privarsa.graphql-example@0.0.1+build1709247657/public/@types/privarsa.graphql-example":
   version "0.0.1"

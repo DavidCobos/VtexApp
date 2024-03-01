@@ -3,15 +3,17 @@ mutation createFacturacion(
   $rfc: String
   $email: String
   $usoCFDI: String
+  $nombreArchivo: String
+  $formData: any
 ) {
   createFacturacion(
     orgid: $orgid
     rfc: $rfc
     email: $email
     usoCFDI: $usoCFDI
+    nombreArchivo: $nombreArchivo
+    formData: $formData
   ) {
-    Id
-    Href
-    DocumentId
+    Url
   }
 }
