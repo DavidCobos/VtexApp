@@ -4395,13 +4395,13 @@ pretty-format@^26.0.0, pretty-format@^26.6.2:
     ansi-styles "^4.0.0"
     react-is "^17.0.1"
 
-"privarsa.admin-app@https://davidprivarsa--privarsa.myvtex.com/_v/private/typings/linked/v1/privarsa.admin-app@0.0.1+build1709226836/public/@types/privarsa.admin-app":
+"privarsa.admin-app@https://davidprivarsa--privarsa.myvtex.com/_v/private/typings/linked/v1/privarsa.admin-app@0.0.1+build1709249701/public/@types/privarsa.admin-app":
   version "0.0.1"
-  resolved "https://davidprivarsa--privarsa.myvtex.com/_v/private/typings/linked/v1/privarsa.admin-app@0.0.1+build1709226836/public/@types/privarsa.admin-app#19a102cc4a39b8ecad16d15a53f7074ffe110dd5"
+  resolved "https://davidprivarsa--privarsa.myvtex.com/_v/private/typings/linked/v1/privarsa.admin-app@0.0.1+build1709249701/public/@types/privarsa.admin-app#0b003aa626c5a743c4c772a7057f11c1e1c852dc"
 
-"privarsa.graphql-example@https://davidprivarsa--privarsa.myvtex.com/_v/private/typings/linked/v1/privarsa.graphql-example@0.0.1+build1709226966/public/@types/privarsa.graphql-example":
+"privarsa.graphql-example@https://davidprivarsa--privarsa.myvtex.com/_v/private/typings/linked/v1/privarsa.graphql-example@0.0.1+build1709247657/public/@types/privarsa.graphql-example":
   version "0.0.1"
-  resolved "https://davidprivarsa--privarsa.myvtex.com/_v/private/typings/linked/v1/privarsa.graphql-example@0.0.1+build1709226966/public/@types/privarsa.graphql-example#e34bd3220db1904387132dcfb97343530ce37a0f"
+  resolved "https://davidprivarsa--privarsa.myvtex.com/_v/private/typings/linked/v1/privarsa.graphql-example@0.0.1+build1709247657/public/@types/privarsa.graphql-example#e34bd3220db1904387132dcfb97343530ce37a0f"
 
 prompts@^2.0.1:
   version "2.4.2"
@@ -5348,6 +5348,10 @@ verror@1.10.0:
 "vtex.render-runtime@http://vtex.vtexassets.com/_v/public/typings/v1/vtex.render-runtime@8.134.2/public/@types/vtex.render-runtime":
   version "8.134.2"
   resolved "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.render-runtime@8.134.2/public/@types/vtex.render-runtime#ae69e2b2a471291c6c6b155e17510150fbfc2d0e"
+
+"vtex.search-graphql@http://vtex.vtexassets.com/_v/public/typings/v1/vtex.search-graphql@0.58.0/public/@types/vtex.search-graphql":
+  version "0.58.0"
+  resolved "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.search-graphql@0.58.0/public/@types/vtex.search-graphql#e0227a47b862277d2b9b4744f114e241afa158e4"
 
 "vtex.styleguide@http://vtex.vtexassets.com/_v/public/typings/v1/vtex.styleguide@9.146.9/public/@types/vtex.styleguide":
   version "9.146.9"

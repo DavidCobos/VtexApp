@@ -19,10 +19,11 @@
     "@vtex/tsconfig": "^0.4.4",
     "apollo-cache-inmemory": "^1.6.5",
     "graphql": "^14.6.0",
-    "privarsa.admin-app": "https://davidprivarsa--privarsa.myvtex.com/_v/private/typings/linked/v1/privarsa.admin-app@0.0.1+build1709226836/public/@types/privarsa.admin-app",
-    "privarsa.graphql-example": "https://davidprivarsa--privarsa.myvtex.com/_v/private/typings/linked/v1/privarsa.graphql-example@0.0.1+build1709226966/public/@types/privarsa.graphql-example",
+    "privarsa.admin-app": "https://davidprivarsa--privarsa.myvtex.com/_v/private/typings/linked/v1/privarsa.admin-app@0.0.1+build1709249701/public/@types/privarsa.admin-app",
+    "privarsa.graphql-example": "https://davidprivarsa--privarsa.myvtex.com/_v/private/typings/linked/v1/privarsa.graphql-example@0.0.1+build1709247657/public/@types/privarsa.graphql-example",
     "typescript": "3.9.7",
     "vtex.render-runtime": "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.render-runtime@8.134.2/public/@types/vtex.render-runtime",
+    "vtex.search-graphql": "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.search-graphql@0.58.0/public/@types/vtex.search-graphql",
     "vtex.styleguide": "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.styleguide@9.146.9/public/@types/vtex.styleguide"
   },
   "resolutions": {

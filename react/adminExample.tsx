@@ -7,18 +7,21 @@ import {
   Input,
   Dropdown,
 } from 'vtex.styleguide'
-import { useQuery } from 'react-apollo'
+import { useMutation, useQuery } from 'react-apollo'
 
 import getFacturation from './graphql/getFacturation.gql'
-// import createFacturation from './graphql/createFacturation.gql'
+import createFacturacion from './graphql/createFacturacion.gql'
 
 const AdminExample: FC = () => {
   const [isOpen, setOpen] = useState(false)
   const [usoCFDISel, setUsoCFDI] = useState('')
+  const [rfc, setRFC] = useState('')
+  const [organizacion, setOrg] = useState('')
+  const [email, setEmail] = useState('')
 
-  const { data, loading, error } = useQuery(getFacturation, {
-    variables: { orgid: 'org1' },
-  })
+  const [mutateFunction, {}] = useMutation(createFacturacion)
+
+  const { data, loading, error } = useQuery(getFacturation)
 
   if (loading) {
     return (
@@ -86,7 +89,19 @@ const AdminExample: FC = () => {
       <ModalDialog
         centered
         confirmation={{
-          // onClick: () => {createFacturation("","","","")},
+          onClick: () => {
+
+            mutateFunction({
+              variables: {
+                orgid: organizacion,
+                rfc: rfc,
+                email: email,
+                usoCFDI: usoCFDISel
+              }
+            });
+
+            setOpen(false);
+          },
           label: 'Send',
         }}
         cancelation={{
@@ -106,13 +121,19 @@ const AdminExample: FC = () => {
           </div>
           <div className="w-100 w-50-ns mv4 pv6-ns pl6-ns">
             <div className="w-100 mv6">
-              <Input placeholder="Normbre organizacion" size="large" />
+              <Input placeholder="Normbre organizacion" size="large" onChange={(e:any) => {
+                setOrg(e.target.value)
+              }} />
             </div>
             <div className="w-100 mv6">
-              <Input placeholder="RFC" size="large" />
+              <Input placeholder="RFC" size="large" onChange={(e:any) => {
+                setRFC(e.target.value)
+              }} />
             </div>
             <div className="w-100 mv6">
-              <Input placeholder="Email" size="large" />
+              <Input placeholder="Email" size="large" onChange={(e:any) => {
+                setEmail(e.target.value)
+              }} />
             </div>
             <div className="w-100 mv6">
               <Dropdown

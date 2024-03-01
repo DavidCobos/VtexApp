@@ -1,10 +1,10 @@
-mutation createFacturation(
+mutation createFacturacion(
   $orgid: String
   $rfc: String
   $email: String
   $usoCFDI: String
 ) {
-  createFacturation(
+  createFacturacion(
     orgid: $orgid
     rfc: $rfc
     email: $email
